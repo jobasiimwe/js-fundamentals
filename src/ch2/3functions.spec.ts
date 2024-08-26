@@ -1,3 +1,4 @@
+// functions as valued of an object
 var functionObject = {
   function1() {
     return 'function1';
