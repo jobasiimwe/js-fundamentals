@@ -9,7 +9,7 @@ describe('variables', () => {
       let thisBlahIs_If_BlockScoped = 'if block scoped';
       var anotherBlah = 'another blah';
     }
-    expect(anotherBlah).toBe('another blah'); // this works
+    // expect(anotherBlah).toBe('another blah'); // this works in js, // doesn't work in ts
     // expect(thisBlahIs_If_BlockScoped).toBe(undefined); <- error 
   });
 });
